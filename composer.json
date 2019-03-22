@@ -1,5 +1,5 @@
 {
-    "name": "apixu/apixu-php",
+    "name": "mikelexp/apixu-php",
     "type": "library",
     "description": "PHP library for Apixu Weather API",
     "keywords": ["apixu", "weather"],
