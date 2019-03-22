@@ -12,6 +12,7 @@ use Apixu\Response\Search;
 interface ApixuInterface
 {
     const HISTORY_SINCE_FORMAT = 'Y-m-d';
+    const HISTORY_END_FORMAT = 'Y-m-d';
 
     /**
      * List of weather conditions
@@ -57,5 +58,5 @@ interface ApixuInterface
      * @return History
      * @throws ApixuException
      */
-    public function history(string $query, \DateTime $since) : History;
+    public function history(string $query, \DateTime $since, \DateTime $end = null) : History;
 }
