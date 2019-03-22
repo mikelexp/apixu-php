@@ -45,10 +45,11 @@ interface ApixuInterface
      *
      * @param string $query
      * @param int $days
+     * @param int|null $hour
      * @return Forecast
      * @throws ApixuException
      */
-    public function forecast(string $query, int $days) : Forecast;
+    public function forecast(string $query, int $days, int $hour = null) : Forecast;
 
     /**
      * Historical weather information for a city and a date starting 2015-01-01
