@@ -55,6 +55,7 @@ interface ApixuInterface
      *
      * @param string $query
      * @param \DateTime $since
+     * @param \DateTime|null $end
      * @return History
      * @throws ApixuException
      */
